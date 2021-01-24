@@ -30,6 +30,7 @@ class OperationType(models.Model):
     
     def __str__(self):
         return self.libelle
+        
 
 class Transactions(models.Model):
     
